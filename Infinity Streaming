@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity Streaming</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d1f3c;
+      color: #ffffff;
+      text-align: center;
+    }
+    header {
+      padding: 30px 20px;
+      background: linear-gradient(135deg, #003366, #0052cc);
+    }
+    .logo {
+      font-size: 2em;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo span {
+      color: #00ffff;
+    }
+    .infinity-symbol {
+      font-size: 1.5em;
+      color: #ff69b4;
+    }
+    h2 {
+      margin-top: 10px;
+      font-weight: normal;
+    }
+    .cta-button {
+      margin-top: 20px;
+      padding: 15px 25px;
+      font-size: 1.1em;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .plans {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .plan-box {
+      background-color: #112244;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      padding: 20px;
+      background-color: #081528;
+      font-size: 0.9em;
+    }
+    @media(min-width: 600px) {
+      .plans {
+        flex-direction: row;
+        justify-content: center;
+      }
+      .plan-box {
+        width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>Infinity Streaming</span>
+      <div class="infinity-symbol">∞</div>
+    </div>
+    <h2>Sua TV online sem limites</h2>
+    <a href="https://wa.me/5547988675945?text=Infinity" class="cta-button">Pedir teste grátis</a>
+  </header>  <section class="section">
+    <h3>Por que escolher a Infinity?</h3>
+    <p>Canais ao vivo, filmes e séries em alta qualidade</p>
+    <p>Compatível com celular, TV Box, Smart TV e mais</p>
+    <p>Suporte 24h com atendimento humanizado</p>
+    <p><strong>Servidor backup para garantir a melhor qualidade</strong></p>
+  </section>  <section class="section">
+    <h3>Planos disponíveis</h3>
+    <div class="plans">
+      <div class="plan-box">
+        <h4>Mensal</h4>
+        <p><strong>R$25,00</strong></p>
+      </div>
+      <div class="plan-box">
+        <h4>Anual Promocional</h4>
+        <p><strong>R$199,90</strong></p>
+      </div>
+    </div>
+  </section>  <section class="section">
+    <a href="https://wa.me/5547988675945?text=Infinity" class="cta-button">Quero minha TV online</a>
+  </section>  <footer>
+    &copy; 2025 Infinity Streaming. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
